@@ -1,0 +1,30 @@
+.card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 2px;
+  color: #f0fff1;
+
+  border-radius: 20px;
+  background: #c8b6ff;
+  box-shadow: 20px 20px 60px #aa9bd9, -20px -20px 60px #e6d1ff;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in;
+}
+.card span {
+  font-weight: 600;
+  font-size: 18px;
+}
+.card a {
+  text-decoration: underline;
+  color: #c0fdff;
+  font-weight: 200;
+  font-size: 14px;
+}

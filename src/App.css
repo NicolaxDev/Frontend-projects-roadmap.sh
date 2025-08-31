@@ -1,0 +1,30 @@
+h1{
+  color: #f0fff1;
+  margin: 0;
+  padding: 0 0 0 0;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px
+}
+.mark{
+  font-size: 16px;
+  color: #c8e7ff;
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+}
+.container-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
