@@ -4,8 +4,10 @@ import avatar from "../public/ProfilePic.png"
 
 function App() {
 
+  const basseUrl = "/Frontend-projects-roadmap.sh"
+
   const projects = [
-    { name: "Single-Page CV", link: "" },
+    { name: "Single-Page CV", link: `${basseUrl}/projects/single-page-cv/index.html` },
   ]
 
   return (
